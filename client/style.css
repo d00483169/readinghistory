@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(black, #408D4B, #026873, black);
+    font-family: 'Times New Roman', Times, serif;
+}
+#title {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Rock Salt", cursive;
+    font-style: normal;
+    text-decoration: underline;
+
+}
+#image {
+    max-height: 250px;
+    max-width: 250px;
+}
+hr {
+    background-color: black;
+    border: none;
+    height: 3px;
+}
+
+
+/* input */
+#input {
+    display: grid;
+    text-align: center;
+}
+.info1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 0 0 auto; /* top right bottom left*/
+    padding-right: 5px;
+}
+.info2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 auto 0 0;
+    padding-left: 5px;
+}
+.info3 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    padding-top: 5px;
+}
+#input-review {
+    width: 50%;
+}
+#input p {
+    margin: 0%;
+}
+.input {
+    background: rgba(255, 255, 255, 0.5);
+    border: outset;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}.input:hover {
+    background: rgba(255, 255, 255, 0.7);
+    border: outset;
+}
+#save-review-button {
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-style: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;;
+}#save-review-button:hover {
+    background: rgba( 0, 0, 0, 50%);
+    color: white;
+    transition: 0.4s ease-out;
+    border: inset;
+}
+
+#hide {
+    display: none;
+}
+
+
+#add-review-button {
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    display: block;
+    margin: auto;
+    border-style: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin-top: 5px;;
+}#add-review-button:hover {
+    background: rgba( 0, 0, 0, 50%);
+    color: white;
+    transition: 0.4s ease-out;
+    border: inset;
+}
+
+
+/* data */
+#history-review-wapper {
+    text-align: center;
+    color: white;
+    background: rgba( 0, 0, 0, 30%); /* black background with 30% opacity */
+    width: 80%;
+    position: relative;
+    text-align: center;
+}
+.history {
+    width: 80%;
+    margin: auto;
+}
+section h3 {
+    text-decoration: underline;
+    margin: 0;
+    padding: 5px;
+}
+section p {
+    margin: 0;
+    padding: 5px;
+}
+.edit-delete-button {
+    font-family: 'Times New Roman', Times, serif;
+    width: 10%;
+    display: block;
+    margin: auto;
+    border-style: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    margin-top: 5px;;
+}.edit-delete-button:hover {
+    background: rgba( 0, 0, 0, 50%);
+    color: white;
+    transition: 0.4s ease-out;
+    border: inset;
+}
