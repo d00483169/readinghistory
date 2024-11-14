@@ -9,8 +9,6 @@ Attributes:
 * book (string)
 * auther (string)
 * review (string)
-* rating (integer)
-* date (integer)
 
 ## Schema
 
@@ -19,9 +17,7 @@ CREATE TABLE ReadingHistory (
 id INTEGER PRIMARY KEY,
 book TEXT,
 auther TEXT,
-review TEXT,
-rating INTEGER,
-date INTEGER);
+review TEXT);
 ```
 
 ## REST Endpoints
